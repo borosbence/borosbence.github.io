@@ -9,7 +9,7 @@ platforms:
   -
     type: Facebook
     icon: "fab fa-facebook-square"
-    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=URL"
+    link: "https://www.facebook.com/sharer/sharer.php?title=TITLE&u=https://borosbence.github.io%2FURL"
   # -
   #   type: Telegram
   #   icon: "fab fa-telegram"
