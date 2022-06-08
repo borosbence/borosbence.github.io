@@ -1,5 +1,5 @@
 ---
 title: Kapcsolat
-icon: fas fa-tag
+icon: fas fa-envelope
 order: 6
 ---

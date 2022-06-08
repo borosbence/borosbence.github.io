@@ -1,7 +1,7 @@
 ---
-title: Rólam
-icon: fas fa-info-circle
-order: 1
+title: Referenciák
+icon: fas fa-hammer
+order: 2
 ---
 
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
