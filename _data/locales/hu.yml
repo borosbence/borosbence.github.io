@@ -58,7 +58,7 @@ post:
   pageview_measure: látogató
   read_time:
     unit: perc
-    prompt: olvasni
+    prompt: elolvasni
   relate_posts: További olvasnivaló
   share: Megosztás
   button:

@@ -23,7 +23,7 @@ timezone: Europe/Budapest
 
 title: Boros Bence                          # the main title
 
-tagline: szoftverfejlesztő   # it will display as the sub-title
+tagline: szoftverfejlesztő, rendszergazda   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Bemutatkozó weboldal, személyes blog.
@@ -34,8 +34,11 @@ url: ''
 github:
   username: borosbence            # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# twitter:
+#   username: twitter_username            # change to your twitter username
+
+facebook:
+  username: boros.bence.6800
 
 social:
   # Change to your full name.
@@ -146,6 +149,7 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /:year/:month/:day/:title/
+      # permalink: /posts/:title/
   - scope:
       path: _drafts
     values:
