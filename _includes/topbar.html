@@ -28,7 +28,7 @@
             {% if page.collection == 'tabs' %}
               <span>{{ site.data.locales[lang].tabs[item] | default: page.title }}</span>
             {% else %}
-              <span><a href="/blog">Blog</a></span>
+              <span><a href="/blog">{{ site.data.locales[lang].tabs.blog | default: blog }}</a></span>
               <span>{{ page.title }}</span>
             {% endif %}
   

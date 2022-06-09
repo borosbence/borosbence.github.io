@@ -54,9 +54,12 @@
   <div class="panel-heading">{{ site.data.locales[lang].panel.links }}</div>
   <div class="d-flex flex-wrap mt-3 mb-1 mr-3">
     <ul class="list-unstyled">
-      <li><a href="/categories">{{ site.data.locales[lang].tabs.categories }}</a></li>
-      <li><a href="/tags">{{ site.data.locales[lang].tabs.tags }}</a></li>
-      <li><a href="/archives">{{ site.data.locales[lang].tabs.archives }}</a></li>
+      {% assign categories = site.tabs | find: "layout", "categories" %}
+      {% assign tags = site.tabs | find: "layout", "tags" %}
+      {% assign archives = site.tabs | find: "layout", "archives" %}
+      <li><i class="{{ categories.icon }} fa-fw mr-xl-3"></i><a href="/categories">{{ site.data.locales[lang].tabs.categories }}</a></li>
+      <li><i class="{{ tags.icon }} fa-fw mr-xl-3"></i><a href="/tags">{{ site.data.locales[lang].tabs.tags }}</a></li>
+      <li><i class="{{ archives.icon }} fa-fw mr-xl-3"></i><a href="/archives">{{ site.data.locales[lang].tabs.archives }}</a></li>
     </ul>
   </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Blog
-icon: fas fa-stream
+icon: fas fa-blog
 order: 3
 show: true
 ---
