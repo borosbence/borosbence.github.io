@@ -2,7 +2,7 @@
 layout: archives
 title: Archívum
 icon: fas fa-archive
-order: 5
+order: 7
 ---
 
 2019 óta már egyéni vállalkozóként is tevékenykedem.
