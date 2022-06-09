@@ -5,12 +5,12 @@ order: 1
 show: true
 ---
 
-ヽ(•‿•)ノ Üdv! 
+Üdv! ヽ(•‿•)ノ
 
-Boros Bence vagyok, szoftverfejlesztő, Szegeden élek a párommal és két tengeri malacunkkal. Munkaidőmben és szabadidőmben is szívesen foglakozok az informatikával. 2019 óta már egyéni vállalkozóként is tevékenykedem.
+Boros Bence vagyok, szoftverfejlesztő. Szegeden élek a párommal és a két tengerimalacunkkal. Munkaidőm mellett szabadidőmben is szívesen foglalkozom az informatikával. 2019 óta már egyéni vállalkozóként is tevékenykedem, így nyugodtan megkereshettek. 
 
-Szívesen segítek és vállalok informatikai munkákakat:
-- Honlapok, webshopok készítése WordPress, Prestashop, Jekyll motorral
+Szívesen segítek és vállalok informatikai munkákat:
+- Weboldalak, webshopok készítése WordPress, Prestashop, Jekyll motorral
 - Számítógépek, eszközök telepítése.
 - Iskolai felkészítés informatikából
 
