@@ -5,8 +5,6 @@ order: 2
 show: true
 ---
 
-## Feltöltés alatt!
-
 Weblapok:
 - Wash and Dry
 - Gyöngy online könyvelés
