@@ -3,8 +3,9 @@ title: Űrlap ajánlások törlése
 date: 2019-01-02 21:58:36 +0100
 categories: [Informatika]
 tags: [böngésző, gyorsbillentyű]
+img_path: /assets/img/2019/01
 image:
-  src: /assets/img/posts/input-recommend.png
+  src: input-recommend.png
   width: 1200
   height: 640
   alt: Űrlap ajánlás

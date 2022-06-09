@@ -3,8 +3,9 @@ title: Idő megjelenítése weblapon
 date: 2018-12-07 22:10:24 +0100
 categories: [Webfejlesztés]
 tags: [javascript]
+img_path: /assets/img/2018/12
 image:
-  src: /assets/img/posts/js-ora.jpg
+  src: js-ora.jpg
   width: 1200
   height: 640
   alt: Idő megjelenítése weblapon

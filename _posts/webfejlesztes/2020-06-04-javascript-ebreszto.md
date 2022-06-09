@@ -3,8 +3,9 @@ title: Javascript ébresztő
 date: 2020-06-04 18:14:31 +0100
 categories: [Webfejlesztés]
 tags: [javascript]
+img_path: /assets/img/2020/06
 image:
-  src: /assets/img/posts/alarm.png
+  src: alarm.png
   width: 1200
   height: 640
   alt: Javascript ébresztő

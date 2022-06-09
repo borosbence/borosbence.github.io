@@ -3,8 +3,9 @@ title: Wordpress multisite network létrehozása
 date: 2019-11-12 16:44:53 +0100
 categories: [Webfejlesztés]
 tags: [wordpress, multisite]
+img_path: /assets/img/2019/06
 image:
-  src: /assets/img/posts/wp-multisite.png
+  src: wp-multisite.png
   width: 1200
   height: 640
   alt: Cleave.js
@@ -16,7 +17,7 @@ Elkezdtem keresni a szolgáltató cPaneljén a Joomla mappákat. Egy tárhely vo
 
 Már majdnem én is elkezdtem volna ugyanígy telepíteni a WordPresseket mikor eszembe jutott, hogy szükségem van nekem kétszer telepíteni ugyanazt? Majdnem ugyanazokat az általam használt plugineket újra beállítani? És persze megjegyezni még egy plusz jelszót? 🙂
 
-![A Joomla főkönyvtárban lévő második Joomla](/assets/img/posts/joomla2in1.jpg)
+![A Joomla főkönyvtárban lévő második Joomla](joomla2in1.jpg)
 _A Joomla főkönyvtárban lévő második Joomla_
 
 Egy kis kutakodás után rátaláltam a **[Wordpress Multisite](https://wordpress.org/support/article/create-a-network/)** megoldásra, ami jónak tűnt.
@@ -41,11 +42,11 @@ define**(**  'WP_ALLOW_MULTISITE', **true**  **)**;
 ```
 
 4.  Lépjünk be a WordPressünkbe és az Eszközök / Hálózat telepítésnél végezzük el a szükséges műveleteket az útmutató alapján.
-![WordPress oldalak hálózata](/assets/img/posts/network_create.png)
+![WordPress oldalak hálózata](network_create.png)
 _Ide csak angol nyelvű képet találtam_
 
 5.  Másoljuk be a wp.config-ba és a .htaccess fájlba a kapott kódokat.
-![Hálózat telepítés](/assets/img/posts/halozat_telepites.png)
+![Hálózat telepítés](halozat_telepites.png)
 _Beillesztendő kódrészletek_
 
 Ha ezekkel ekészültünk már tudunk új aloldalakat létrehozni a WordPressben, két lehetőséggel:
@@ -78,7 +79,7 @@ define( 'WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] );
 
 Az admin felületen a My Networks részen létrehoztam még egy hálózatot, ami a tacerontgen.hu névre hallgat.
 
-![Példa hálózat létrehozására](/assets/img/posts/halozat1.png)
+![Példa hálózat létrehozására](halozat1.png)
 _Példa hálózat létrehozására_
 
 Mindkét domainre létre lett hozva a WordPress honlap, és azon belül is tudok létrehozni majd aloldalakat. Fontos, hogy a honlapokat ne tévesszük össze a hálózatokkal. Minden hálózathoz tartozhat több honlap, egy honlap nem lehet több hálózat része!
@@ -88,12 +89,12 @@ Az új lapfüleink, amikkel könyebb lesz a navigáció:
 
 Hálózatok            |  Honlapok
 :-------------------------:|:-------------------------:
-![Hálózatok](/assets/img/posts/my_networks.jpg)  |  ![Honlapok](/assets/img/posts/honlapjaim.jpg)
+![Hálózatok](my_networks.jpg)  |  ![Honlapok](honlapjaim.jpg)
 
 
 Ezek után a cPanelben megadtam, hogy a tacerontgen.hu is a public_html mappára mutasson, így ha mindkét domain is ugyanarra a könyvtárra mutat, akkor is a megfelelő honlapot fogja behozni, a korábbi beállításoknak köszönhetően.
 
-![Domain átirányítása](/assets/img/posts/tacerontgen_cpanel.png)
+![Domain átirányítása](tacerontgen_cpanel.png)
 _Domain átirányítása ugyanarra a wordpress mappára_
 
 Ha pedig az egészet vissza szeretnénk állítani egy oldalra, akkor kövessek [ezt](https://wordx.press/how-to-revert-a-wordpress-multisite-to-a-single-site/) az útmutatót.

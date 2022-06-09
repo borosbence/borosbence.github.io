@@ -3,8 +3,9 @@ title: 10 tipp régi számítógépünk felgyorsítására
 date: 2019-12-12 22:49:34 +0100
 categories: [Informatika]
 tags: [tippek]
+img_path: /assets/img/2019/12
 image:
-  src: /assets/img/posts/pc-speedup.jpg
+  src: pc-speedup.jpg
   width: 1200
   height: 640
   alt: Űrlap ajánlás
@@ -14,7 +15,7 @@ Karácsonykor végre jut időnk a családra, a fadíszítéshez, a mézeskalács
 
 # Hardver
 
-![HDD-ről SSD-re](/assets/img/posts/hddtossd.jpg)
+![HDD-ről SSD-re](hddtossd.jpg)
 _Néha egy eszköz cseréje is felgyorsíthatja a munkát_
 
 ## Merevlemezről váltsunk ssd-re!
@@ -34,7 +35,7 @@ A ventillátorokon fent ragadt port vizes szivaccsal lehet lemosni. A gépház b
 
 # Szoftver
 
-![Böngészési adatok törlése - Chrome](/assets/img/posts/chromeclean.png)
+![Böngészési adatok törlése - Chrome](chromeclean.png)
 _Böngészési adatok törlése Google Chrome-ban_
 
 ## Böngészési adatok törlése
@@ -61,7 +62,7 @@ Lehet, hogy mindig csak ugyanaz a program fagy le ugyan annál a lépésnél. Il
 
 Számítógépünk lassulását okozhatja egy pici nem kívánatos program is, ami nem jó szándékból került a rendszerünkre. A vírus adatokat küldhet vagy fogadhat az internetről, lefoglalhatja a memória vagy a szabad tárhely egy részét önkényesen. Vírusellenőrzés lefuttatásával megszabadulhatunk ezektől a káros programoktól és a számítógépünk is hálás lesz érte.
 
-![Feladatkezelő](/assets/img/posts/autostart.png)
+![Feladatkezelő](autostart.png)
 _Windows Feladatkezelő, Indítás fül_
 
 ## Automatikusan induló programok leállítása

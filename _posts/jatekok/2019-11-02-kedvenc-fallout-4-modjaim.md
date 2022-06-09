@@ -3,8 +3,9 @@ title: Kedvenc Fallout 4 modjaim
 date: 2019-11-02 00:00:59 +0100
 categories: [Játékok]
 tags: [fallout, mod]
+img_path: /assets/img/2019/11
 image:
-  src: /assets/img/posts/fallout4mod.png
+  src: fallout4mod.png
   width: 1200
   height: 640
   alt: Fallout 4 modok
