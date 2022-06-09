@@ -23,7 +23,7 @@ timezone: Europe/Budapest
 
 title: Boros Bence                          # the main title
 
-tagline: szoftverfejlesztő, rendszergazda   # it will display as the sub-title
+tagline: szoftverfejlesztő   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Bemutatkozó weboldal, személyes blog.
