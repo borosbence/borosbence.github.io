@@ -1,0 +1,42 @@
+---
+title: Referenciák
+icon: fas fa-link
+order: 2
+show: true
+---
+
+<h2>Honlapok</h2>
+
+<div class="card-columns">
+  {% for site in site.categories['Honlap'] %}
+  {% assign src = site.img_path | append:'/' | append: site.images[0].src %}
+  <div class="card bg-transparent">
+    <img class="card-img-top" src="{{ src }}" alt="{{ site.title }}">
+    <div class="card-body">
+      <h5 class="card-title mt-0">{{ site.title }}</h5>
+      <a href="{{ site.url }}" class="card-text">Részletek</a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Készült: {{ site.date | date: "%Y.%m.%d" }}</small>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Kiadványok</h2>
+
+<div class="card-columns">
+  {% for pub in site.categories['Kiadvány'] %}
+  {% assign src = pub.img_path | append:'/' | append: pub.images[0].src %}
+  <div class="card bg-transparent">
+    <img class="card-img-top" src="{{ src }}" alt="{{ pub.title }}">
+    <div class="card-body">
+      <h5 class="card-title mt-0">{{ pub.title }}</h5>
+      <a href="{{ pub.url }}" class="card-text">Részletek</a>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Készült: {{ pub.date | date: "%Y.%m.%d" }}</small>
+    </div>
+  </div>
+  {% endfor %}
+</div>
