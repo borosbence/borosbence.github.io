@@ -32,7 +32,7 @@ panel:
 copyright:
   # Shown at the bottom of the post
   # license:
-  #   template: This post is licensed under :LICENSE_NAME by the author.
+  #   template: A bejegyzés :LICENSE_NAME licenccel rendelkezik.
   #   name: CC BY 4.0
   #   link: https://creativecommons.org/licenses/by/4.0/
 
@@ -47,9 +47,10 @@ meta: Készítve :PLATFORM platformon :THEME témával.
 
 not_found:
   statment: Sajnáljuk, az URL-t rosszul helyeztük el, vagy valami nem létezőre mutat.
-  hint_template: Lépjen vissza a :HEAD_BAK hogy megpróbálja újra megtalálni, vagy keressen rá az :ARCHIVES_PAGE.
-  head_back: Kezdőlapra
-  archives_page: Archívum oldalon
+
+notification:
+  update_found: Elérhető a tartalom új verziója.
+  update: Frissítés
 
 # ----- Posts related labels -----
 
@@ -77,5 +78,9 @@ post:
 
 # categories page
 categories:
-  category_measure: kategória
-  post_measure: bejegyzés
+  category_measure:
+    singular: kategória
+    plural: kategóriák
+  post_measure:
+    singular: bejegyzés
+    plural: bejegyzések
