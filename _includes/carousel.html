@@ -9,7 +9,10 @@
   <div class="carousel-inner">
     {% for img in page.images %}
     <div class="carousel-item {% if img.id == 0 %}{{ "active" }}{% endif %}">
-      <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
+      {% assign link = page.img_path | append:'/' | append: img.src %}
+      <a href="{{ link }}" target="_blank">
+        <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
+      </a>
     </div>
     {% endfor %}
   </div>

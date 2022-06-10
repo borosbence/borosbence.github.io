@@ -11,7 +11,7 @@ show: true
   {% for site in site.categories['Honlap'] %}
   {% assign src = site.img_path | append:'/' | append: site.images[0].src %}
   <div class="card bg-transparent">
-    <img class="card-img-top" src="{{ src }}" alt="{{ site.title }}">
+    <a href="{{ site.url }}"><img class="card-img-top" src="{{ src }}" alt="{{ site.title }}"></a>
     <div class="card-body">
       <h5 class="card-title mt-0">{{ site.title }}</h5>
       <a href="{{ site.url }}" class="card-text">Részletek</a>
@@ -29,7 +29,7 @@ show: true
   {% for pub in site.categories['Kiadvány'] %}
   {% assign src = pub.img_path | append:'/' | append: pub.images[0].src %}
   <div class="card bg-transparent">
-    <img class="card-img-top" src="{{ src }}" alt="{{ pub.title }}">
+    <a href="{{ site.url }}"><img class="card-img-top" src="{{ src }}" alt="{{ pub.title }}"></a>
     <div class="card-body">
       <h5 class="card-title mt-0">{{ pub.title }}</h5>
       <a href="{{ pub.url }}" class="card-text">Részletek</a>
