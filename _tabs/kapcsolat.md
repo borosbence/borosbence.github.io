@@ -5,6 +5,6 @@ order: 4
 show: true
 ---
 
-Amennyiben kérdése van, írjon üzenetet és küldje el a lenti űrlapon.
+Kérdés vagy ajánlatkérés esetén írjon üzenetet és küldje el a lent látható űrlapon.
 
 {% include contact-form.html %}
