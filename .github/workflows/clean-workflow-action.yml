@@ -1,2 +1,9 @@
 - name: Clean Workflow Action
+  # You may pin to the exact commit or the version.
+  # uses: igorjs/gh-actions-clean-workflow@e5de22f15e8ee2f19a1e7097ca9ff7e6ac8604bc
   uses: igorjs/gh-actions-clean-workflow@v3
+  with:
+    # The token to use to access the GitHub API
+    token: 
+    # The amount of days old to delete
+    days_old: # optional, default is 7
