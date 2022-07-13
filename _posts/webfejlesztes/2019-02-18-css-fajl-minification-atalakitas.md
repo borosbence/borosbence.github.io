@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [css]
 img_path: /assets/img/2019/02
 image:
-  src: css-minify.png
+  path: css-minify.png
   width: 1200
   height: 640
   alt: Css minification

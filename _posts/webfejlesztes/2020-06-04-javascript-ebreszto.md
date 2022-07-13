@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [javascript]
 img_path: /assets/img/2020/06
 image:
-  src: alarm.png
+  path: alarm.png
   width: 1200
   height: 640
   alt: Javascript ébresztő

@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [javascript]
 img_path: /assets/img/2018/12
 image:
-  src: js-ora.jpg
+  path: js-ora.jpg
   width: 1200
   height: 640
   alt: Idő megjelenítése weblapon

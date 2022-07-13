@@ -5,7 +5,7 @@ categories: [Játékok]
 tags: [fallout, mod]
 img_path: /assets/img/2019/11
 image:
-  src: fallout4mod.png
+  path: fallout4mod.png
   width: 1200
   height: 640
   alt: Fallout 4 modok

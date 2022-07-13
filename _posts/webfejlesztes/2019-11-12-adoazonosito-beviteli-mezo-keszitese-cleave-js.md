@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [javascript, cleave.js]
 img_path: /assets/img/2019/11
 image:
-  src: cleavejs.png
+  path: cleavejs.png
   width: 1200
   height: 640
   alt: Cleave.js

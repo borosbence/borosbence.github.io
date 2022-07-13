@@ -5,7 +5,7 @@ categories: [Informatika]
 tags: [böngésző, gyorsbillentyű]
 img_path: /assets/img/2019/01
 image:
-  src: input-recommend.png
+  path: input-recommend.png
   width: 1200
   height: 640
   alt: Űrlap ajánlás

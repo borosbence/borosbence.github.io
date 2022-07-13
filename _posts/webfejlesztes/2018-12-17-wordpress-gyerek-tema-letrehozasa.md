@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [wordpress, child-theme]
 img_path: /assets/img/2018/12
 image:
-  src: wordpress-child-themes.jpg
+  path: wordpress-child-themes.jpg
   width: 1200
   height: 640
   alt: Wordpress szülő és gyermek

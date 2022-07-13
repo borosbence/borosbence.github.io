@@ -38,8 +38,8 @@
         </a>
       </li>
       <!-- the real tabs -->
-      {% assign showableTabs = site.tabs | where_exp: "item", "item.show == true" %}
-      {% for tab in site.tabs %}
+      {% assign showableTabs = site.tabs | where: "show", true %}
+      {% for tab in showableTabs %}
       <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
         <a href="{{ tab.url | relative_url }}" class="nav-link">
           <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>

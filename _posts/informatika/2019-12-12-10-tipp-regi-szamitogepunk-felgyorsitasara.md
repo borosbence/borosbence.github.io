@@ -5,7 +5,7 @@ categories: [Informatika]
 tags: [tippek]
 img_path: /assets/img/2019/12
 image:
-  src: pc-speedup.jpg
+  path: pc-speedup.jpg
   width: 1200
   height: 640
   alt: Űrlap ajánlás

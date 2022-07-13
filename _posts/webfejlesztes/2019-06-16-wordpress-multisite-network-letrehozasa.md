@@ -5,7 +5,7 @@ categories: [Webfejlesztés]
 tags: [wordpress, multisite]
 img_path: /assets/img/2019/06
 image:
-  src: wp-multisite.png
+  path: wp-multisite.png
   width: 1200
   height: 640
   alt: Cleave.js
