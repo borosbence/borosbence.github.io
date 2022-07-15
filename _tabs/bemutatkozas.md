@@ -1,6 +1,7 @@
 ---
 title: Bemutatkozás
 icon: fas fa-user
+image: /assets/img/banner.png
 order: 1
 show: true
 ---

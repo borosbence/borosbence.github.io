@@ -3,9 +3,9 @@ title: Wordpress gyerek téma létrehozása
 date: 2018-12-17 10:29:23 +0100
 categories: [Webfejlesztés]
 tags: [wordpress, child-theme]
-img_path: /assets/img/2018/12
+# img_path: /assets/img/2018/12
 image:
-  path: wordpress-child-themes.jpg
+  path: /assets/img/2018/12/wordpress-child-themes.jpg
   width: 1200
   height: 640
   alt: Wordpress szülő és gyermek
@@ -20,7 +20,7 @@ Első lépésként vértezzük fel magunkat kellő programozói tudással és ho
 
 # Mire jó a wordpress gyerek téma?
 
-*(A sima gyermek téma már egy kicsit felnőttebb ***téma***🙂)
+*(A sima gyermek már egy másik ***téma***🙂)
 
 Tetszik pl: a *Twenty Seventeen* sablon, de kicsit testre szeretném szabni. Azonban ha jön hozzá egy frissítés, akkor telepítésnél sajnos az összes eddigi kódsor módosításunk elveszthet. A frissítés elhalasztása pedig biztonsági szempontból problémás...\
 Erre a megoldásra jó a gyerek-téma, ami kiegészíti a főtéma hiányosságait, a mi igényeinknek megfelelően. Használatához szükséges a szülő téma megléte a webtárhelyen.
@@ -91,5 +91,5 @@ Alkotásunkat bekapcsolhatjuk Megjelenítés / Sablonok fülön.
 
 Végeredmény:
 
-![Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti](child-theme.png)
+![Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti](/assets/img/2018/12/child-theme.png)
 _Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti_

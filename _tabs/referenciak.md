@@ -1,6 +1,7 @@
 ---
 title: Referenciák
 icon: fas fa-link
+image: /assets/img/banner.png
 order: 3
 show: true
 ---
