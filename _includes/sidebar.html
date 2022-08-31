@@ -38,6 +38,8 @@
         </a>
       </li>
       <!-- the real tabs -->
+      
+      <!-- CHANGES TO ORIGINAL -->
       {% assign showableTabs = site.tabs | where: "show", true %}
       {% for tab in showableTabs %}
       <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
