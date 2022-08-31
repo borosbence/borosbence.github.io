@@ -23,7 +23,7 @@ A képünk két részre oszlik, jobb oldalt látható a tábla, amin el kell nav
 
 ![A nyuszi célba juttatását itt még egyszerűen össze lehet hozni.](/assets/img/2022/08/rc-08.png)_A nyuszi célba juttatását itt még egyszerűen össze lehetett hozni._
 
-A nyuszit vagy éppen a porszívó robotot a lejátszás gombbal tudjuk elindítani, sikertelen utasítás esetén rögtön újrakezdhetjük és építhetjük újra a "kódunkat". Az egyre összetettebb pályákon nagyobb kihívást fog adni a megadott lépéseinknek a száma, ezért minél jobb és gyorsabb kódra kell törekednünk, hogy sikerüljön. Több megoldás is létezik egy-egy pályán, akár csak a valódi programozásban, nem mindig egyetlen egy megoldás lesz a jó. A lépéseinket fel tudjuk gyorsítani 3x-ára is ha unjuk, a pálya végén pedig teljesítményünk alapjén csillagokkal jutalmaz a játék.
+A nyuszit vagy éppen a porszívó robotot a lejátszás gombbal tudjuk elindítani, sikertelen utasítás esetén rögtön újrakezdhetjük és építhetjük újra a "kódunkat". Az egyre összetettebb pályákon nagyobb kihívást fog adni a megadott lépéseinknek a száma, ezért minél jobb és gyorsabb kódra kell törekednünk, hogy sikerüljön. Több megoldás is létezik egy-egy pályán, akár csak a valódi programozásban, nem mindig egyetlen egy megoldás lesz a jó. A lépéseinket fel tudjuk gyorsítani 3x-ára is ha unjuk, a pálya végén pedig teljesítményünk alapján csillagokkal jutalmaz a játék.
 
 ![40 rövid pályán próbálhatju ki magunkat](/assets/img/2022/08/rc-levels.png)_40 pályán próbálhatjuk ki tudásunkat._
 
