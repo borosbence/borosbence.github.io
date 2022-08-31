@@ -1,5 +1,5 @@
 ---
-title: 'Bemutató: Rabbids Coding'
+title: 'Bemutató: Rabbids Coding!'
 date: 2022-08-31 14:00:00 +0200
 categories: [Játékok]
 tags: [bemutató, rabbids]
@@ -7,7 +7,7 @@ image:
   path: /assets/img/2022/08/rabbids-cover.jpg
   width: 1200
   height: 640
-  alt: Rabbids Coding
+  alt: Rabbids Coding!
 ---
 
 ## Őrült nyuszik
