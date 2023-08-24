@@ -10,9 +10,7 @@
     {% for img in page.images %}
     <div class="carousel-item {% if img.id == 0 %}{{ "active" }}{% endif %}">
       {% assign link = page.img_path | append:'/' | append: img.src %}
-      <a href="{{ link }}" target="_blank">
-        <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
-      </a>
+      <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
     </div>
     {% endfor %}
   </div>
