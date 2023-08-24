@@ -3,11 +3,9 @@ title: Wordpress gyerek téma létrehozása
 date: 2018-12-17 10:29:23 +0100
 categories: [Webfejlesztés]
 tags: [wordpress, child-theme]
-# img_path: /assets/img/2018/12
+img_path: /assets/img/2018/12/
 image:
-  path: /assets/img/2018/12/wordpress-child-themes.jpg
-  width: 1200
-  height: 640
+  path: wordpress-child-themes.jpg
   alt: Wordpress szülő és gyermek
 ---
 
@@ -91,5 +89,5 @@ Alkotásunkat bekapcsolhatjuk Megjelenítés / Sablonok fülön.
 
 Végeredmény:
 
-![Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti](/assets/img/2018/12/child-theme.png)
+![Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti](child-theme.png)
 _Catch Box Child témám, zöld kerettel jelölve, pirossal az eredeti_

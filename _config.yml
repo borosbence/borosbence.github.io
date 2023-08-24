@@ -47,10 +47,11 @@ social:
   email: borosbence6800@gmail.com            # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/borosbence       # change to your github homepage
+    - /bemutatkozas
     # Uncomment below to add more social links
-    - https://m.me/boros.bence.6800
+    # - https://twitter.com/username # change to your twitter homepage
+    # - https://github.com/username # change to your github homepage
+    # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 google_site_verification:               # fill in to your verification string

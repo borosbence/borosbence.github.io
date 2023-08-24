@@ -3,7 +3,7 @@ title: TACE Röntgen
 date: 2019-06-04 00:01:00 +0200
 categories: [Referenciák, Honlap]
 tags: [wordpress]
-img_path: /assets/img/referencia/tace-rontgen
+img_path: /assets/img/referencia/tace-rontgen/
 comments: false
 images:
 - id: 0

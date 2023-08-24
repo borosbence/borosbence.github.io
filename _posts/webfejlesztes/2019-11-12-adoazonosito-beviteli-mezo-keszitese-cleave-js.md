@@ -3,9 +3,9 @@ title: Adóazonosító beviteli mező készítése - Cleave.js
 date: 2019-11-12 16:44:53 +0100
 categories: [Webfejlesztés]
 tags: [javascript, cleave.js]
-# img_path: /assets/img/2019/11
+img_path: /assets/img/2019/11/
 image:
-  path: /assets/img/2019/11/cleavejs.png
+  path: cleavejs.png
   width: 1200
   height: 640
   alt: Cleave.js
@@ -37,4 +37,4 @@ Erre volt segítségem egy JavaScript könyvtár, a [Cleave.js](https://nosir.g
 ```
 Eredmény:
 
-<iframe width="100%" height="300" src="//jsfiddle.net/bitben/v0yb8gp9/embedded/result,html,js/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<script async src="//jsfiddle.net/benzo90/v0yb8gp9/embed/js,html,result/"></script>

@@ -3,11 +3,8 @@ title: Idő megjelenítése weblapon
 date: 2018-12-07 22:10:24 +0100
 categories: [Webfejlesztés]
 tags: [javascript]
-# img_path: /assets/img/2018/12
 image:
   path: /assets/img/2018/12/js-ora.jpg
-  width: 1200
-  height: 640
   alt: Idő megjelenítése weblapon
 ---
 
@@ -67,4 +64,4 @@ Később a HTML-ben vagy a Javascript fájlban meghívható az **updateClock()*
 
 A teljes kódsor az eredménnyel:
 
-<iframe src="//jsfiddle.net/bitben/015woLv2/embedded/result,html,js/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span></iframe>
+<script async src="//jsfiddle.net/benzo90/015woLv2/embed/js,html,result/"></script>

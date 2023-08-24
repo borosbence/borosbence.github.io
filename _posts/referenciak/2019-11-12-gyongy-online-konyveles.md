@@ -3,7 +3,7 @@ title: Gyöngy Online Könyvelés
 date: 2019-11-12 00:00:00 +0100
 categories: [Referenciák, Honlap]
 tags: [wordpress, divi]
-img_path: /assets/img/referencia/gyongy-online-konyveles
+img_path: /assets/img/referencia/gyongy-online-konyveles/
 comments: false
 images:
 - id: 0

@@ -5,8 +5,6 @@ categories: [Játékok]
 tags: [bemutató, rabbids]
 image:
   path: /assets/img/2022/08/rabbids-cover.jpg
-  width: 1200
-  height: 640
   alt: Rabbids Coding!
 ---
 

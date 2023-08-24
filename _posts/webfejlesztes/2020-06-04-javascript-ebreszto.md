@@ -3,11 +3,8 @@ title: Javascript ébresztő
 date: 2020-06-04 18:14:31 +0100
 categories: [Webfejlesztés]
 tags: [javascript]
-# img_path: /assets/img/2020/06
 image:
   path: /assets/img/2020/06/alarm.png
-  width: 1200
-  height: 640
   alt: Javascript ébresztő
 ---
 
@@ -75,4 +72,4 @@ function setAlarm() {
 
 Persze így már nem csak ébresztőt, hanem munkaidő kezdetét, végét be lehet állítani. A továbbfejlesztési lehetőségek tárháza végtelen. 🙂
 
-<iframe src="//jsfiddle.net/bitben/0qpk6c8t/embedded/result,html,js/" width="100%" height="300" frameborder="0" allowfullscreen="allowfullscreen"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start"></span></iframe>
+<script async src="//jsfiddle.net/benzo90/0qpk6c8t/9/embed/js,html,result/"></script>

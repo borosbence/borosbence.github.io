@@ -1,11 +1,11 @@
 <link rel="stylesheet" href="/assets/css/referencia.css" />
 
-<div id="carouselExampleIndicators" class="carousel slide mb-3 mb-md-3" data-ride="carousel">
-  <ol class="carousel-indicators">
+<div id="carouselExampleIndicators" class="carousel slide mb-3 mb-md-3">
+  <div class="carousel-indicators">
     {% for img in page.images %}
-    <li data-target="#carouselExampleIndicators" data-slide-to="{{ img.id }}" class="{% if img.id == 0 %}{{ "active" }}{% endif %}"></li>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ img.id }}" class="{% if img.id == 0 %}{{ "active" }}{% endif %}"></button>
     {% endfor %}
-  </ol>
+  </div>
   <div class="carousel-inner">
     {% for img in page.images %}
     <div class="carousel-item {% if img.id == 0 %}{{ "active" }}{% endif %}">
@@ -16,10 +16,10 @@
     </div>
     {% endfor %}
   </div>
-  <button class="carousel-control-prev" type="button" title="Vissza" data-target="#carouselExampleIndicators" data-slide="prev">
+  <button class="carousel-control-prev" type="button" title="Vissza" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   </button>
-  <button class="carousel-control-next" type="button" title="Előre" data-target="#carouselExampleIndicators" data-slide="next">
+  <button class="carousel-control-next" type="button" title="Előre" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
   </button>
 </div>

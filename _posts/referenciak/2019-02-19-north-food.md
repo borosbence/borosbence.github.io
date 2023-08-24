@@ -3,7 +3,7 @@ title: North-Food
 date: 2019-02-19 00:00:00 +0100
 categories: [Referenciák, Honlap]
 tags: [wordpress]
-img_path: /assets/img/referencia/north-food
+img_path: /assets/img/referencia/north-food/
 comments: false
 images:
 - id: 0
