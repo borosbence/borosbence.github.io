@@ -42,15 +42,13 @@ Szívesen segítek és vállalok informatikai munkákat:
 | Németh László Gimnázium | Hódmezővásárhely |
 
 ## 🧰 Használt technológiák
-- ASP.NET Core MVC, Web API, Blazor*
-- C# WPF, WinForms
+- ASP.NET Core MVC, Web API, Blazor
+- MAUI, WPF, WinForms
 - PHP, WordPress, Prestashop, Jekyll
 - HTML, CSS, Javascript
-- jQuery, AngularJs, Angular*
+- jQuery, AngularJs
 - MySQL, Oracle, MSSQL
 - PowerShell
-
-<sub>\* Ezen technológiák teljes elsajátítása még folyamatban.</sub>
 
 ## 💻 Informatikai ismeretek
 - Windows és Debian szerver üzemeltetés
@@ -58,18 +56,18 @@ Szívesen segítek és vállalok informatikai munkákat:
 - Microsoft Office, Publisher, Sharepoint
 - CCNA hálózati és hardverismeret, HP Procurve CLI
 - Kép -hang és videószerkesztés (Gimp, Audacity, Sony Vegas)
-- Udacity: Google Developer Challenge Scholarship: Android Basics
 
 ## 🗣 Nyelvtudás
 - Középfokú angol nyelvvizsga (B2)
 - Német alapszint
 
 ## 🤹‍♀️ Készségek
-- Komplex informatikai és megoldás orientált gondolkodásmód
-- Részletes dokumentáció készítés
+- Megoldás orientált gondolkodásmód
+- Jó kommunikációs és szervező képesség
 - Új technológiák iránti nyitottság
+- Önálló, megbízható, precíz munkavégzés
 - Kiemelkedő kreativitás
-- Önálló, lelkiismeretes, precíz munkavégzés
+- Informatikai üzemeltetési és fejlesztési projektekben szerzett tapasztalat
 
 ## 🎮 Hobbik
 - Programozási ismeretek bővítése, hobbi projektek készítése
