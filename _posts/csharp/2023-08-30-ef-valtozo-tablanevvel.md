@@ -9,7 +9,7 @@ image:
   alt: Entity Framework összekapcsolása változó táblanévvel
 ---
 
-Az Entity Framework *(későbbiekben EF)* egy nagyszerű [ORM](https://hu.wikipedia.org/wiki/Objektum-rel%C3%A1ci%C3%B3s_lek%C3%A9pz%C3%A9s) eszköz, azonban vannak olyan helyzetek, amikor nem a hagyományos, internetes útmutatót követve kell megvalósítanunk az elképzelésünket.  Az egyik ilyen eset, pl. a változó táblanév kapcsolása entitás osztályokhoz. A következő pár sorban bemutatom, hogy hogyan tudjuk ezt megoldani.
+Az Entity Framework *(későbbiekben EF)* egy nagyszerű [ORM](https://hu.wikipedia.org/wiki/Objektum-rel%C3%A1ci%C3%B3s_lek%C3%A9pz%C3%A9s) eszköz, azonban vannak olyan helyzetek, amikor nem a hagyományos, internetes útmutatót követve kell megvalósítanunk az elképzelésünket.  Az egyik ilyen eset, pl. a változó táblanév kapcsolása ugyanolyan szerkezetű entitás osztályokhoz. A következő pár sorban bemutatom, hogy hogyan tudjuk ezt megoldani.
 
 # Alaphelyzet
 
@@ -94,11 +94,11 @@ A teszt sikeresen lefutott, létrehozott egy Context példányt, amiben a *Tabla
 
 # Változó életciklusú DbContextek
 
-Ez mind szép és jó volt, csak mi van abban az esetben, ha a DbContextet nem tudom az alkalmazásomnál kézzel példányosítani, - vagy inkább nem szeretném - hanem mondjuk egy függőségi injektálással *([DI](https://hu.wikipedia.org/wiki/A_f%C3%BCgg%C5%91s%C3%A9g_befecskendez%C3%A9se))*
+Idáig remekül haladunk, csak mi van abban az esetben, ha a DbContextet nem tudom kézzel példányosítani, - vagy inkább nem szeretném - hanem mondjuk a függőségi injektálásra *([DI](https://hu.wikipedia.org/wiki/A_f%C3%BCgg%C5%91s%C3%A9g_befecskendez%C3%A9se))* szeretném bízni.
 
 A program indulásakor létrehozza a DbContext példányt, de ez az egy példány él azzal a dátummal, amit a legelején megadtunk neki. Ha a program futása közben megváltozik a dátum, akkor a DbContextünk nem fogja ezt követni, mert az már a konstruktorban megkapta a dátumot és az élettartama alatt nem változik.
 
-Vannak olyan alkalmazások is, ahol nincs megoldva az objektumok eldobása (pl. Blazor) ezért használjuk a **DbContextFactory**-t a kapcsolat létrehozásához.
+Vannak olyan alkalmazások is, ahol nincs megoldva az objektumok eldobása desktruktorral, szemétgyűjtővel (pl. Blazor) ezért használjuk a **DbContextFactory**-t a kapcsolat létrehozásához.
 
 Ki kell először egészíteni az elkészített Context osztályunkat egy másik konstruktorral:
 
