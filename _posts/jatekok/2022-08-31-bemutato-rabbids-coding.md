@@ -1,6 +1,6 @@
 ---
 title: 'Bemutató: Rabbids Coding!'
-date: 2022-08-31 14:00:00 +0200
+date: 2022-08-31 14:00:00 +0100
 categories: [Játékok]
 tags: [bemutató, rabbids]
 image:
