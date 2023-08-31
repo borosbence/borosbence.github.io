@@ -1,6 +1,6 @@
 ---
 title: Entity Framework összekapcsolása változó táblanévvel
-date: 2023-08-31 16:47:00 +0000
+date: 2023-08-31 13:47:00 +0100
 categories: [Programozás, C#]
 tags: [entity framework, adatbázis]
 img_path: /assets/img/2023/08/
