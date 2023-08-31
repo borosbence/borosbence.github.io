@@ -135,6 +135,21 @@ public class ElorejelzesContextFactory : IDbContextFactory<ElorejelzesContext>
 Feltűnhet egy eddig szóba nem került fogalom, az **IModelCachheKeyFactory**.
 E nélkül, ha több DbContextFactoryt készítünk, akkor mindegyik ugyanazokra az entitásokra fog mutatni (pl. mindig 2023. augusztusát). Erre azért van szükség, hogy a gyorsítótár (cache) egy kulcs alapján el tudja választani a DbContext leképezéseket, így akár több hónap adatait is le tudjuk kérdezni és nem kell az objektumok eldobását külön megírnunk.
 
+```csharp
+public class ElorejelzesModelCacheFactory : IModelCacheKeyFactory
+{
+    public object Create(DbContext context, bool designTime)
+    {
+        if (context is ElorejelzesContext _context)
+        {
+            return (context.GetType(), _context.TablaNev);
+        }
+        return context.GetType();
+    }
+}
+```
+Ha a Context példányunk megfelel az **EloreJelzesContext**-nek, akkor a dátum táblanevet is hozzáfűzi a context nevéhez, így nem fog összeütközni a gyorsítótárban meghívásnál, nem a legutolsó példányt fogja visszaadni.
+
 # Teszt kiegészítés
 
 A jelenlegi tesztünket kiegészítjük a DbContextFactory használatával és az új két paraméteres konstruktorral:
