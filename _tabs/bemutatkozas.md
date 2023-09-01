@@ -41,6 +41,10 @@ Szívesen segítek és vállalok informatikai munkákat:
 | Angol szak, 6 osztályos gimnázium | 2003 -- 2009 |
 | Németh László Gimnázium | Hódmezővásárhely |
 
+## 📜Tanúsítványok
+- [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/benzo90/foundational-c-sharp-with-microsoft)
+- Szakképzési rendszer vizsgáztatási eljárási rendje (SZEREVI)
+
 ## 🧰 Használt technológiák
 - ASP.NET Core MVC, Web API, Blazor
 - MAUI, WPF, WinForms
