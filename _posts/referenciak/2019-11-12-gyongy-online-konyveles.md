@@ -27,6 +27,6 @@ images:
 
 Gyöngy Online Könyvelés.
 
-[http://www.gyongykonyveles.infora.hu/](http://www.gyongykonyveles.infora.hu/){:target="_blank"}
+[https://www.gyongykonyveles.infora.hu/](https://www.gyongykonyveles.infora.hu/){:target="_blank"}
 
 Elkészítés ideje: 2019.11.12

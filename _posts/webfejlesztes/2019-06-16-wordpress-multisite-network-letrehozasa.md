@@ -97,7 +97,7 @@ _Domain átirányítása ugyanarra a wordpress mappára_
 
 Ha pedig az egészet vissza szeretnénk állítani egy oldalra, akkor kövessek [ezt](https://wordx.press/how-to-revert-a-wordpress-multisite-to-a-single-site/) az útmutatót.
 
-Mellesleg ha egy jó fogorvost vagy röntgenest szeretnétek Szegeden, akkor ajánlom nektek a [**TACE Dental**](http://tacedental.hu/)t és a [**TACE Röntgen**](http://tacerontgen.hu/)t! 🙂
+Mellesleg ha egy jó fogorvost vagy röntgenest szeretnétek Szegeden, akkor ajánlom nektek a [**TACE Dental**](https://tacedental.hu/)t és a [**TACE Röntgen**](https://tacerontgen.hu/)t! 🙂
 
 Hivatkozások:
 
