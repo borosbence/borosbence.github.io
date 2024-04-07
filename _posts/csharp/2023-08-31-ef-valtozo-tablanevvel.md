@@ -11,13 +11,13 @@ image:
 
 Az Entity Framework *(későbbiekben EF)* egy nagyszerű [ORM](https://hu.wikipedia.org/wiki/Objektum-rel%C3%A1ci%C3%B3s_lek%C3%A9pz%C3%A9s) eszköz, azonban vannak olyan helyzetek, amikor nem a hagyományos, internetes útmutatót követve kell megvalósítanunk az elképzelésünket.  Az egyik ilyen eset, pl. a változó táblanév kapcsolása ugyanolyan szerkezetű entitás osztályokhoz. A következő pár sorban bemutatom, hogy hogyan tudjuk ezt megoldani.
 
-# Alaphelyzet
+## Alaphelyzet
 
 Készítettünk vagy örököltünk egy adatbázist, ahol a táblák létrehozását egy másik folyamat vezérli. Legyen ez az adatbázis az időjárás előrejelzéshez köthető, ahol minden hónapra egy új tábla generálódik a napi adatokkal, a szerkezete, mindig ugyanaz:
 
 ![Időjárás adatbázis](elorejelzes_db.png)
 
-# Entitás - Tábla leképezés
+## Entitás - Tábla leképezés
 
 Az *EF*-ben általában az osztály neve megegyezik az adatbázis tábla nevével, de ezt a szabály felülírhatjuk kétféleképpen is:
 
@@ -45,7 +45,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 Azonban, mint láthatjuk eléggé kötve a kezünk, mert így csak egyetlen egy táblát a 2023. augusztusi időjárás adatait tudjuk leképezni a programunkba. Ha több táblát is szeretnénk elérni, akkor a fenti megoldások nem működnek.
 
-# DbContext konstruktor
+## DbContext konstruktor
 
 Erre megoldásként készíthetünk egy olyan konstruktort a Context osztályunkhoz, amelyik paraméterként vár egy dátumot, amit konfigurálásnál hozzá tud fűzni a tábla nevéhez és azzal fogja már megoldani az egyeztetést.
 
@@ -72,7 +72,7 @@ public class ElorejelzesContext : DbContext
 }
 ```
 
-# Tesztelés
+## Tesztelés
 
 Egy teszt projektben gyorsan le is ellenőrizhetjük, hogy működik-e a megoldásunk:
 
@@ -92,7 +92,7 @@ public void ContextKapcsolodas()
 
 A teszt sikeresen lefutott, létrehozott egy Context példányt, amiben a *TablaNeve* érték megfelel az augsztusi tábla nevének, ezért a **ToTable**  megfelelően társította az adatbázis tábláját az entitásra.
 
-# Változó életciklusú DbContextek
+## Változó életciklusú DbContextek
 
 Idáig remekül haladunk, csak mi van abban az esetben, ha a DbContextet nem tudom kézzel példányosítani, - vagy inkább nem szeretném - hanem mondjuk a függőségi injektálásra *([DI](https://hu.wikipedia.org/wiki/A_f%C3%BCgg%C5%91s%C3%A9g_befecskendez%C3%A9se))* szeretném bízni.
 
@@ -150,7 +150,7 @@ public class ElorejelzesModelCacheFactory : IModelCacheKeyFactory
 ```
 Ha a Context példányunk megfelel az **EloreJelzesContext**-nek, akkor a dátum táblanevet is hozzáfűzi a context nevéhez, így nem fog összeütközni a gyorsítótárban meghívásnál, nem a legutolsó példányt fogja visszaadni.
 
-# Teszt kiegészítés
+## Teszt kiegészítés
 
 A jelenlegi tesztünket kiegészítjük a DbContextFactory használatával és az új két paraméteres konstruktorral:
 
@@ -171,6 +171,6 @@ public void ContextFactoryKapcsolodas()
 
 ![Teszt kiegészítés](egyseg_teszt.png)
 
-# Összefoglalás
+## Összefoglalás
 
 Ezzel a megoldással sikerülhet EF segítségével több ugyanolyan szerkezetű táblát lekérdeznünk eltérő tábla névvel. A DbContextFactory segítségével pedig a DbContext élettartama is megfelelően kezelhető.
