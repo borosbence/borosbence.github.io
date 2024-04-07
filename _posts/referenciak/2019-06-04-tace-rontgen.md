@@ -27,6 +27,6 @@ images:
 
 TACE Röntgen - Fogászati Röntgen Laboratórium.
 
-[http://tacerontgen.hu](http://tacerontgen.hu){:target="_blank"}
+[https://tacerontgen.hu](https://tacerontgen.hu){:target="_blank"}
 
 Elkészítés ideje: 2019.06.04

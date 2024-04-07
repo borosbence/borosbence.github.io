@@ -55,10 +55,10 @@ Még korábban egy Steam leárazásnál sikerült beszereztem a Fallout 4 GOTY k
 -   [True Storms -- Wasteland Edition](https://www.nexusmods.com/fallout4/mods/4472)\
     Igazán ijesztő viharokat hoz a játékba.
 -   [Unofficial Fallout 4 Patch](https://www.nexusmods.com/fallout4/mods/4598)\
-    Nem hivatalos javítások összessége. Én még a [magyarított verzió](http://fallouthun.hu/magyaritas-letoltese/)t is hozzáadtam.
+    Nem hivatalos javítások összessége. Én még a [magyarított verzió](https://fallouthun.hu/magyaritas-letoltese/)t is hozzáadtam.
 -   [Visible Companion Affinity](https://www.nexusmods.com/fallout4/mods/10660)\
     Döntéseinknél láthatóvá válik százalékosan társunk hozzáállása.
 -   [Vivid Fallout -- All in One](https://www.nexusmods.com/fallout4/mods/25714)\
     Grafikai mod szépítésre.
 
-Aki szeretné magyar nyelven élvezni a poszt-apokalipszis világot, annak készül(t) a Fallout 4 magyarítás. <http://fallouthun.hu/>
+Aki szeretné magyar nyelven élvezni a poszt-apokalipszis világot, annak készül(t) a Fallout 4 magyarítás. <https://fallouthun.hu/>

@@ -37,4 +37,4 @@ Erre volt segítségem egy JavaScript könyvtár, a [Cleave.js](https://nosir.g
 ```
 Eredmény:
 
-<script async src="//jsfiddle.net/benzo90/v0yb8gp9/embed/js,html,result/"></script>
+<script async src="https://jsfiddle.net/benzo90/v0yb8gp9/embed/js,html,result/"></script>

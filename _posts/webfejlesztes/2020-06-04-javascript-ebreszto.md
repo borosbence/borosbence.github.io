@@ -72,4 +72,4 @@ function setAlarm() {
 
 Persze így már nem csak ébresztőt, hanem munkaidő kezdetét, végét be lehet állítani. A továbbfejlesztési lehetőségek tárháza végtelen. 🙂
 
-<script async src="//jsfiddle.net/benzo90/0qpk6c8t/9/embed/js,html,result/"></script>
+<script async src="https://jsfiddle.net/benzo90/0qpk6c8t/9/embed/js,html,result/"></script>

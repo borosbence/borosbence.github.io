@@ -27,6 +27,6 @@ images:
 
 TACE Dental Alsóvárosi Fogászati Centrum.
 
-[http://tacedental.hu/](http://tacedental.hu/){:target="_blank"}
+[https://tacedental.hu/](https://tacedental.hu/){:target="_blank"}
 
 Elkészítés ideje: 2019.06.04

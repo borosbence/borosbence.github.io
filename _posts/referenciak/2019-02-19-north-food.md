@@ -27,6 +27,6 @@ images:
 
 North-Food zöldség nagykereskedés.
 
-[http://northfood.hu](http://northfood.hu){:target="_blank"}
+[https://northfood.hu](http://northfood.hu){:target="_blank"}
 
 Elkészítés ideje: 2019.02.19

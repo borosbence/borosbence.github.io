@@ -64,4 +64,4 @@ Később a HTML-ben vagy a Javascript fájlban meghívható az **updateClock()*
 
 A teljes kódsor az eredménnyel:
 
-<script async src="//jsfiddle.net/benzo90/015woLv2/embed/js,html,result/"></script>
+<script async src="https://jsfiddle.net/benzo90/015woLv2/embed/js,html,result/"></script>
