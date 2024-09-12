@@ -3,7 +3,7 @@ title: TACE Dental
 date: 2019-06-04 00:00:00 +0100
 categories: [Referenciák, Honlap]
 tags: [wordpress]
-img_path: /assets/img/referencia/tace-dental/
+media_subpath: /assets/img/referencia/tace-dental/
 comments: false
 images:
 - id: 0

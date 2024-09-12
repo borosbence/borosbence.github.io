@@ -3,7 +3,7 @@ title: 10 tipp régi számítógépünk felgyorsítására
 date: 2019-12-12 22:49:34 +0100
 categories: [Informatika]
 tags: [tippek]
-img_path: /assets/img/2019/12/
+media_subpath: /assets/img/2019/12/
 image:
   path: pc-speedup.jpg
   alt: Űrlap ajánlás

@@ -3,7 +3,7 @@ title: Wordpress multisite network létrehozása
 date: 2019-06-16 14:08:53 +0100
 categories: [Webfejlesztés]
 tags: [wordpress, multisite]
-img_path: /assets/img/2019/06/
+media_subpath: /assets/img/2019/06/
 image:
   path: wp-multisite.png
   alt: Cleave.js
@@ -85,9 +85,9 @@ Mindkét domainre létre lett hozva a WordPress honlap, és azon belül is tudok
 Az új lapfüleink, amikkel könyebb lesz a navigáció:
 
 
-Hálózatok            |  Honlapok
-:-------------------------:|:-------------------------:
-![Hálózatok](my_networks.jpg)  |  ![Honlapok](honlapjaim.jpg)
+|           Hálózatok           |          Honlapok           |
+| :---------------------------: | :-------------------------: |
+| ![Hálózatok](my_networks.jpg) | ![Honlapok](honlapjaim.jpg) |
 
 
 Ezek után a cPanelben megadtam, hogy a tacerontgen.hu is a public_html mappára mutasson, így ha mindkét domain is ugyanarra a könyvtárra mutat, akkor is a megfelelő honlapot fogja behozni, a korábbi beállításoknak köszönhetően.

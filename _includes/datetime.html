@@ -13,9 +13,13 @@
   {% assign df_dayjs = 'YYYY-MM-DD' %}
 {% endif %}
 
-<{{ wrap_elem }} class="{% if include.class %}{{ include.class }}{% endif %}"
-    data-ts="{{ include.date | date: '%s' }}"
-    data-df="{{ df_dayjs }}"
-    {% if include.tooltip %}data-toggle="tooltip" data-placement="bottom"{% endif %}>
+<{{ wrap_elem }}
+  class="{% if include.class %}{{ include.class }}{% endif %}"
+  data-ts="{{ include.date | date: '%s' }}"
+  data-df="{{ df_dayjs }}"
+  {% if include.tooltip %}
+    data-toggle="tooltip" data-placement="bottom"
+  {% endif %}
+>
   {{ include.date | date: df_strftime }}
 </{{ wrap_elem }}>
