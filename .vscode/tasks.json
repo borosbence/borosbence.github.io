@@ -1,33 +1,26 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "Serve",
-            "type": "shell",
-            "command": "bundle exec jekyll serve --livereload",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-            "isBackground": true,
-        },
-        {
-            "label": "Build",
-            "type": "shell",
-            "command": "bundle exec jekyll build",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-        },
-        {
-            "label": "Test",
-            "type": "shell",
-            "command": "bundle exec htmlproofer _site --disable-external --check-html --allow_hash_href",
-            "group": {
-                "kind": "test",
-                "isDefault": true
-            },
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Jekyll Server",
+      "type": "shell",
+      "command": "./tools/run.sh",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Runs the Jekyll server with live reload."
+    },
+    {
+      "label": "Build Jekyll Site",
+      "type": "shell",
+      "command": "./tools/test.sh",
+      "group": {
+        "kind": "build"
+      },
+      "problemMatcher": [],
+      "detail": "Build the Jekyll site for production."
+    }
+  ]
 }
