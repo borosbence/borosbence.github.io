@@ -1,26 +1,63 @@
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "Run Jekyll Server",
+//       "type": "shell",
+//       "command": "./tools/run.sh",
+//       "group": {
+//         "kind": "build",
+//         "isDefault": true
+//       },
+//       "problemMatcher": [],
+//       "detail": "Runs the Jekyll server with live reload."
+//     },
+//     {
+//       "label": "Build Jekyll Site",
+//       "type": "shell",
+//       "command": "./tools/test.sh",
+//       "group": {
+//         "kind": "build"
+//       },
+//       "problemMatcher": [],
+//       "detail": "Build the Jekyll site for production."
+//     }
+//   ]
+// }
+
 {
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Jekyll Server",
+      "label": "Serve",
       "type": "shell",
-      "command": "./tools/run.sh",
+      "command": "bundle exec jekyll serve --livereload",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "detail": "Runs the Jekyll server with live reload.",
+      "isBackground": true
+    },
+    {
+      "label": "Build",
+      "type": "shell",
+      "command": "bundle exec jekyll build",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [],
-      "detail": "Runs the Jekyll server with live reload."
+      "detail": "Build the Jekyll site for production."
     },
     {
-      "label": "Build Jekyll Site",
+      "label": "Test",
       "type": "shell",
-      "command": "./tools/test.sh",
+      "command": "bundle exec htmlproofer _site --disable-external --checks --allow_hash_href",
       "group": {
-        "kind": "build"
+        "kind": "test",
+        "isDefault": true
       },
-      "problemMatcher": [],
-      "detail": "Build the Jekyll site for production."
+      "detail": "Tests for broken links and other issues."
     }
   ]
 }
