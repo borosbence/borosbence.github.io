@@ -8,7 +8,7 @@ show: true
 
 Üdv! ヽ(•‿•)ノ
 
-Boros Bence vagyok, szoftverfejlesztő. Szegeden élek a feleségemmel és a két tengerimalacunkkal. Munkaidőm mellett szabadidőmben is szívesen foglalkozom az informatikával. 2019 óta már egyéni vállalkozóként is tevékenykedem. 
+Boros Bence vagyok, tapasztalt szoftverfejlesztő, aki önállóan és nyitottan dolgozik az informatikai területen. Számos weblap és alkalmazás tervezésében és fejlesztésében vettem részt, valamint jelentős tapasztalattal rendelkezem hálózati eszközök és szerverek üzemeltetésében is. Szegeden élek a családommal, ahol szabadidőmben szívesen programozok, videójátékozok és könyveket olvasok.
 
 Szívesen segítek és vállalok informatikai munkákat:
 - Weboldalak, webshopok készítése WordPress, Prestashop, Jekyll motorral
@@ -23,7 +23,7 @@ Szívesen segítek és vállalok informatikai munkákat:
 
 | **Óraadó tanár** | 2019.09. -- jelenleg |
 | SZSZC Vasvári Pál Szakképző Iskola |  |
-| **Alkalmazásfejlesztő** | 2018.07 -- jelenleg |
+| **Szoftverfejlesztő** | 2018.07 -- jelenleg |
 | MVMI Zrt. |  |
 | **Informatikai munkatárs** | 2016.09 -- 2018.07 |
 | Szegedi Közlekedési Kft. |  |
@@ -46,13 +46,11 @@ Szívesen segítek és vállalok informatikai munkákat:
 - Szakképzési rendszer vizsgáztatási eljárási rendje (SZEREVI)
 
 ## 🧰 Használt technológiák
-- ASP.NET Core MVC, Web API, Blazor
-- MAUI, WPF, WinForms
-- PHP, WordPress, Prestashop, Jekyll
-- HTML, CSS, Javascript
-- jQuery, AngularJs
-- MySQL, Oracle, MSSQL
-- PowerShell
+- C#: ASP.NET Core MVC, Web API, Blazor, MAUI, WPF, WinForms
+- PHP: WordPress, Prestashop
+- Front-end: HTML, CSS, Javascript, jQuery, AngularJs
+- SQL: MySQL, Oracle, MSSQL
+- Egyéb: PowerShell, Jekyll
 
 ## 💻 Informatikai ismeretek
 - Windows és Debian szerver üzemeltetés

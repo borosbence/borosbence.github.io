@@ -3,7 +3,7 @@ title: Wordpress gyerek téma létrehozása
 date: 2018-12-17 10:29:23 +0100
 categories: [Webfejlesztés]
 tags: [wordpress, child-theme]
-img_path: /assets/img/2018/12/
+media_subpath: /assets/img/2018/12/
 image:
   path: wordpress-child-themes.jpg
   alt: Wordpress szülő és gyermek

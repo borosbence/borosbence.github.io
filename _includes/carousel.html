@@ -1,23 +1,46 @@
-<link rel="stylesheet" href="/assets/css/referencia.css" />
+<link rel="stylesheet" href="/assets/css/referencia.css">
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
 
 <div id="carouselExampleIndicators" class="carousel slide mb-3 mb-md-3">
   <div class="carousel-indicators">
     {% for img in page.images %}
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ img.id }}" class="{% if img.id == 0 %}{{ "active" }}{% endif %}"></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="{{ img.id }}"
+        class="{% if img.id == 0 %}{{ "active" }}{% endif %}"
+      ></button>
     {% endfor %}
   </div>
   <div class="carousel-inner">
     {% for img in page.images %}
-    <div class="carousel-item {% if img.id == 0 %}{{ "active" }}{% endif %}">
-      {% assign link = page.img_path | append:'/' | append: img.src %}
-      <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
-    </div>
+      <div class="carousel-item {% if img.id == 0 %}{{ "active" }}{% endif %}">
+        {% assign link = page.media_subpath | append: '/' | append: img.src %}
+        <img src="{{ img.src }}" class="d-block w-100" alt="{{ img.alt }}">
+      </div>
     {% endfor %}
   </div>
-  <button class="carousel-control-prev" type="button" title="Vissza" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button
+    class="carousel-control-prev"
+    type="button"
+    title="Vissza"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="prev"
+  >
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
   </button>
-  <button class="carousel-control-next" type="button" title="Előre" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button
+    class="carousel-control-next"
+    type="button"
+    title="Előre"
+    data-bs-target="#carouselExampleIndicators"
+    data-bs-slide="next"
+  >
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
   </button>
 </div>
