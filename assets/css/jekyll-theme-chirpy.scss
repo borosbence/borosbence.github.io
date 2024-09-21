@@ -10,8 +10,8 @@ $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 fo
 {%- endif -%}
 ';
 
-@import 'cards.css';
-@import 'carousel.css';
+@import '/assets/css/cards.css';
+@import '/assets/css/carousel.css';
 
 /* append your custom style below */
 
