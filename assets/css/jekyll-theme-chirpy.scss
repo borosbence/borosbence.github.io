@@ -1,8 +1,12 @@
+---
+---
+
 /*
   If the number of TAB files has changed, the following variable is required.
   And it must be defined before `@import`.
 */
 $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 for home tab
+
 
 @import 'main
 {%- if jekyll.environment == 'production' -%}
@@ -10,12 +14,12 @@ $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 fo
 {%- endif -%}
 ';
 
-@import '/assets/css/cards.css';
-@import '/assets/css/carousel.css';
-
 /* append your custom style below */
 
 /* Referencia oldal */
+
+@import 'cards.css';
+@import 'carousel.css';
 
 .carousel .carousel-item {
   height: 40vh;
