@@ -16,10 +16,11 @@ $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 fo
 
 /* append your custom style below */
 
-/* Referencia oldal */
-
-@import 'cards.css';
+@import 'card.css';
 @import 'carousel.css';
+@import 'feedback.css';
+
+/* Referencia oldal */
 
 .carousel .carousel-item {
   height: 40vh;
