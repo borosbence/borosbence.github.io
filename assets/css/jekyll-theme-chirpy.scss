@@ -4,7 +4,12 @@
 */
 $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 for home tab
 
-@import 'main';
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
 @import 'cards.css';
 @import 'carousel.css';
 
