@@ -5,8 +5,8 @@
 $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 for home tab
 
 @import 'main';
-@import 'cards';
-@import 'carousel';
+@import 'cards.css';
+@import 'carousel.css';
 
 /* append your custom style below */
 
