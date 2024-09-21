@@ -1,0 +1,22 @@
+name: Clean Deployment Logs
+
+on:
+  workflow_dispatch:
+    inputs:
+      days_old:
+        description: "The amount of days old to delete"
+        default: "7"
+        required: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+      - name: 🗑 Delete deployment
+        uses: strumwolf/delete-deployment-environment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
