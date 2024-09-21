@@ -5,5 +5,28 @@
 $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 for home tab
 
 @import 'main';
+@import 'cards';
+@import 'carousel';
 
 /* append your custom style below */
+
+/* Referencia oldal */
+
+.carousel .carousel-item {
+  height: 40vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-item img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .carousel .carousel-item {
+    height: 25vh;
+  }
+}
