@@ -1,5 +1,5 @@
 ---
-title: Tananyagok GitHubon
+title: Tananyagok a GitHubon
 date: 2024-09-22 12:44:00 +0100
 categories: [Programozás]
 tags: [github, oktatás]
@@ -17,4 +17,4 @@ Az interneten számos programozási oktatóanyag található, köztük GitHub ol
 - [Microsoft - AI for Beginners](https://microsoft.github.io/AI-For-Beginners/): Mesterséges intelligencia alapok, python programozással.
 - [Free Programming Books](https://ebookfoundation.github.io/free-programming-books/): Linkgyűjtemény ingyenes programozási könyvekhez, kód és emberi nyelvek szerint csoportosítva.
 
-Magán a GitHub oldalán is léteznek gyűjtemények, amiket a közösség hozott létre, egyik ilyen a [Learn to Code](https://github.com/collections/learn-to-code), amit még érdemes megnézni.
+Magán a GitHub oldalán is léteznek gyűjtemények, amiket a közösség hozott létre, egyik ilyen a [Learn to Code](https://github.com/collections/learn-to-code), amit érdemes áttekinteni.
