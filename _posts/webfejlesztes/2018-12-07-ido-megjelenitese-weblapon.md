@@ -1,7 +1,7 @@
 ---
 title: Idő megjelenítése weblapon
 date: 2018-12-07 22:10:24 +0100
-categories: [Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [javascript]
 image:
   path: /assets/img/2018/12/js-ora.jpg

@@ -1,7 +1,7 @@
 ---
 title: Javascript ébresztő
 date: 2020-06-04 18:14:31 +0100
-categories: [Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [javascript]
 image:
   path: /assets/img/2020/06/alarm.png

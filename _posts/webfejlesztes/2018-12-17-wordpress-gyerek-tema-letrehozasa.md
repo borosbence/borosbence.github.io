@@ -1,7 +1,7 @@
 ---
 title: Wordpress gyerek téma létrehozása
 date: 2018-12-17 10:29:23 +0100
-categories: [Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [wordpress, child-theme]
 media_subpath: /assets/img/2018/12/
 image:

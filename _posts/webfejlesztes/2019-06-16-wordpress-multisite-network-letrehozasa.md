@@ -1,7 +1,7 @@
 ---
 title: Wordpress multisite network létrehozása
 date: 2019-06-16 14:08:53 +0100
-categories: [Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [wordpress, multisite]
 media_subpath: /assets/img/2019/06/
 image:

@@ -1,7 +1,7 @@
 ---
 title: Duck Hunt CSS
 date: 2024-04-07 11:00:00 +0100
-categories: [Játékok, Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [duck hunt, css]
 image:
   path: /assets/img/2024/duck-hunt.png

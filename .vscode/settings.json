@@ -29,6 +29,8 @@
   },
   "files.exclude": {
     "_site": true,
-    ".jekyll-cache": true
-  }
+    ".jekyll-cache": true,
+    ".devcontainer": true
+  },
+  "cSpell.language": "hu"
 }

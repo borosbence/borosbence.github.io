@@ -1,7 +1,7 @@
 ---
 title: Css fájl minification átalakítás
 date: 2019-02-18 21:59:09 +0100
-categories: [Webfejlesztés]
+categories: [Programozás, Webfejlesztés]
 tags: [css]
 media_subpath: /assets/img/2019/02/
 image:

@@ -12,12 +12,10 @@ jobs:
   cleanup:
     runs-on: ubuntu-latest
     permissions: write-all
-
     steps:
-      - name: 🗑 Delete deployment
-        uses: strumwolf/delete-deployment-environment@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          days_old: ${{ github.event.inputs.days_old }}
-          environment: github-pages
-          onlyRemoveDeployments: true
+      uses: strumwolf/delete-deployment-environment@v2
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        days_old: ${{ github.event.inputs.days_old }}
+        environment: github-pages
+        onlyRemoveDeployments: true
