@@ -6,27 +6,34 @@ order: 4
 show: true
 ---
 
-Kérdés vagy ajánlatkérés esetén írjon üzenetet és küldje el a lent látható
-űrlapon.
+<p>
+  Kérdés vagy ajánlatkérés esetén írjon üzenetet és küldje el a lent látható
+  űrlapon.
+</p>
 
-<form
-  id="contact-form"
-  action="https://getform.io/f/f6e57140-3275-4617-b759-1a728e19cefd"
-  method="POST"
->
+<form method="POST" id="form">
+  <input
+    type="hidden"
+    name="access_key"
+    value="070252dc-f30a-426e-871e-6b8e1bef1317"
+  />
+  <input type="hidden" name="subject" value="Új üzenet a Web3Forms-tól" />
+  <input type="hidden" name="from_name" value="borosbence.github.io" />
+  <input type="checkbox" name="botcheck" id="" style="display: none" />
+
   <input
     type="text"
-    name="name"
     class="form-control mb-3"
-    required
+    name="name"
     placeholder="Név"
+    required
   />
   <input
     type="email"
     name="email"
     class="form-control mb-3"
-    required
     placeholder="Email cím"
+    required
   />
   <textarea
     name="message"
@@ -35,6 +42,45 @@ Kérdés vagy ajánlatkérés esetén írjon üzenetet és küldje el a lent lá
     placeholder="Üzenet"
     required
   ></textarea>
-  <input type="hidden" name="_gotcha" style="display: none !important" />
-  <button type="submit" class="btn btn-primary">Küldés</button>
+  <button type="submit" class="btn btn-primary mb-3">Küldés</button>
 </form>
+
+<p id="result"></p>
+
+<script>
+  const form = document.getElementById("form");
+  const result = document.getElementById("result");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    result.innerHTML = "Küldés folyamatban...";
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.innerHTML = "Sikeresen elküldve!";
+        } else {
+          console.log(response);
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "Valami hiba történt!";
+      })
+      .then(function () {
+        form.reset();
+      });
+  });
+</script>
