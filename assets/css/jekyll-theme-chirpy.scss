@@ -18,7 +18,7 @@ $tab-count: {{ site.tabs | where: "show", true | size | plus: 1 }}; // plus 1 fo
 
 @import 'card.css';
 @import 'carousel.css';
-@import 'feedback.css';
+@import 'margins.css';
 
 /* Referencia oldal */
 
