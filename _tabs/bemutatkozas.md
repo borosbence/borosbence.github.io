@@ -42,6 +42,7 @@ Szívesen segítek és vállalok informatikai munkákat:
 | Németh László Gimnázium | Hódmezővásárhely |
 
 ## 📜Tanúsítványok
+- [Generative AI for Educators](https://skillshop.exceedlms.com/student/award/nqU9hBj8j4tvXCsyetvMuatS)
 - [Foundational C# with Microsoft](https://www.freecodecamp.org/certification/benzo90/foundational-c-sharp-with-microsoft)
 - Szakképzési rendszer vizsgáztatási eljárási rendje (SZEREVI)
 
